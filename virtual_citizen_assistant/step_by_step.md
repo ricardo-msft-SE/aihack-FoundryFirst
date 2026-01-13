@@ -3,6 +3,7 @@
 
 This README walks you through building a **Virtual Citizen Assistant** using **Microsoft Azure AI Foundry**, including creating the Agent, attaching Knowledge, adding Actions via OpenAPI, and testing the experience.
 
+![Virtual Citizen Assistant Step-by-Step Foundry Process](./diagram1.png)
 ---
 
 ## 🚀 Overview
