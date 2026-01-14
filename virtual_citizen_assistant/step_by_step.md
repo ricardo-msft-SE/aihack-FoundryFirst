@@ -127,13 +127,20 @@ Save this as **`permit-api.json`**:
 
 ---
 
-## 4b. Add the Action
+## 4b. Add the Permit API Tool in Microsoft Foundry
 
-1. In the Agent, open the **Actions** section
-2. Click **+ Add action**
-3. Choose **Upload file** → select `permit-api.json`
-4. **Authentication:** choose **None**
-5. Click **Add**
+*Note: In the updated Microsoft Foundry interface, "Actions" have been consolidated under the **Tools** menu. An Action is now defined as an **OpenAPI Tool**.*
+
+1.  Navigate to your **Agent** in the Microsoft Foundry portal.
+2.  Locate the **Tools** tab (or panel) on the navigation menu.
+3.  Click **+ Add tool** (or **+ New tool**).
+4.  From the tool type options, select **OpenAPI tool** (this may be listed under "Custom" or "External").
+5.  In the configuration wizard:
+    * **Tool Name:** Enter a recognizable name (e.g., "Permit API").
+    * **Definition:** Select **Upload JSON** or **Import from file**.
+    * **File:** Browse and select your `permit-api.json` file.
+6.  Under the **Authentication** settings, select **None** (Anonymous).
+7.  Click **Add** (or **Create tool**) to finalize the setup.
 
 Your agent can now call this API.
 
